@@ -4,8 +4,8 @@ body {
 
 
 .container {
-   width: 80%;
-   margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -37,6 +37,7 @@ body {
     background-color: darkred;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .btopo {
@@ -48,6 +49,7 @@ body {
     background-size: 415px 300px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -59,47 +61,47 @@ body {
 
 }
 
-.divlogo{
+.divlogo {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.img{
-   margin-right: -20px;
+.img {
+    margin-right: -20px;
 }
 
-.img1{
+.img1 {
     background-image: url(https://photo-cdn2.icons8.com/SPSLQKnHaB7rqjo10M3_uByF78UVDEYJ4JpSfFZ1oAA/rs:fit:1614:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9hMjRmZWE3OWU0/OGQ0YmU2YjVjZDQz/YjI2NjJmYjA0Yi5q/cGc.jpg);
     background-size: 414px 270px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.img2{
+.img2 {
     background-image: url(https://photo-cdn2.icons8.com/wCo33PH1AeAsi81S2A8uVwvd0atU63OlEWw8uEtKxdc/rs:fit:1340:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84ZGYyMjEyMDFh/NzM0YjAzYjcwZjVk/ZDJhMDk3MWRkZC5q/cGc.jpg);
     background-size: 414px 270px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.img3{
+.img3 {
     background-image: url(https://photo-cdn2.icons8.com/Yef7R7zM_LzPEj0eCo1AaTDk8UwyMt-6GRAfT1OcXHI/rs:fit:1610:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi8xNjhlMDI5MDA1/MTg0MjljYTljNDk4/YjUyY2UwZGI2ZC5q/cGc.jpg);
     background-size: 414px 270px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.font{
+.font {
     color: rgb(8, 8, 8);
     margin-left: 20px;
 }
 
-.white{
+.white {
     color: whitesmoke;
 }
 
-.baixo{
+.baixo {
     width: 100%;
     height: 50px;
     margin-top: 20px;
@@ -110,27 +112,122 @@ body {
 
 }
 
-.baixod{
+.baixod {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.prod{
-display: grid;
-gap: 10px;
-margin: 0;
-width: 100%;
-height: 100%;
-margin-top: 20px;
-grid-template-columns: 200px 200px;
-grid-template-rows: 200px 200px;
-justify-content: center;
-align-items: center;
+.prod {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 180px 180px;
+    justify-content: center;
+    align-items: center;
 }
 
-.prods{
-    width: 200px;
-    height: 200px;
+.prods {
+    width: 180px;
+    height: 180px;
     border-radius: 20px;
+
+}
+
+.p1 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Luminous-White-1-300x300.png");
+    background-size: 180px;
+}
+
+.p2 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Diamond-Black-6-300x300.jpg");
+    background-size: 180px;
+}
+
+.p3 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Diamond-White-5.jpg");
+    background-size: 180px;
+}
+
+.p4 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Diamond-Red-7-300x300.jpg");
+    background-size: 180px;
+}
+
+.p5 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Diamond-Bamboo-3-300x300.jpg");
+    background-size: 180px;
+}
+
+.p6 {
+    background-image: url("file:///C:/Users/Estudante/Downloads/Vitrola-Luminous-Black-1-300x300.png");
+    background-size: 180px;
+}
+
+@media(min-width: 768px) {
+
+    .prod {
+        grid-template-columns: 250px 250px 250px 250px 250px 250px;
+        gap: 25px;
+        grid-template-rows: 250px;
+    }
+
+    .p1,
+    .p2,
+    .p3,
+    .p4,
+    .p5,
+    .p6 {
+        background-size: 250px;
+        background-position: center;
+
+    }
+
+    .prods {
+        width: 250px;
+        height: 250px;
+    }
+
+    .btopo {
+        background-size: 2000px 900px;
+        height: 300px;
+        justify-content: center;
+
+    }
+
+    .gridItem {
+        width: 550px;
+        height: 300px;
+        justify-content: center;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        background-size: 550px 300px;
+    }
+
+    .botonbox {
+        grid-template-columns: 550px 550px 550px;
+        align-content: center;
+        gap: 40px;
+        justify-content: center;
+    }
+
+.topo{
+    display: flex;
+    justify-content: center;
+}
+
+.cd{
+    height: 200px;
+    width: 200px;
+}
+
+
+
 }
